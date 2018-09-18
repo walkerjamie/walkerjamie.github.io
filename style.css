@@ -11,13 +11,15 @@ blockquote {
 color: purple;
 font-size: 16pt;
 font-family: "times new roman", times, serif;
+border: 1px dashed aliceblue; 
 }
 
 .left {
   text-align:left;
   margin-left:0px;
   width:40%;
-  float: left
+  float: left; 
+  background-color: cadetblue;
   
 }
 
@@ -26,6 +28,7 @@ font-family: "times new roman", times, serif;
   margin-right:0px;
   width:40%;
   float: right;
+  background-color: cadetblue;
 }
 
 div {
