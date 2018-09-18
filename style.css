@@ -9,6 +9,19 @@ font-size: 16pt;
 font-family: "times new roman", times, serif;
 }
 
+.left {
+  text-align:left;
+  margin-left:0px;
+  width:40%;
+  
+}
+
+.right {
+  text-align:right;
+  margin-right:0px;
+  width:40%;
+}
+
 div {
 margin-left: 5%;
 font-family: geneva, sans-serif;
