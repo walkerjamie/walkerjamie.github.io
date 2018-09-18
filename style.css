@@ -4,31 +4,36 @@ background-color: antiquewhite;
 }
 
 h1 {
-  text-align:center;
+  /* text-align:center; */
 }
 
 blockquote {
 color: purple;
 font-size: 16pt;
 font-family: "times new roman", times, serif;
-border: 1px dashed aliceblue; 
+/* border: 1px dashed aliceblue;
+    border: 1px dashed #000000;
+*/
 }
 
 .left {
   text-align:left;
   margin-left:0px;
+  /*
   width:40%;
-  float: left; 
-  background-color: cadetblue;
+  float: left;  */
+  /* background-color: cadetblue; */
   
 }
 
 .right {
-  text-align:right;
+    text-align:left;
+    margin-left:0px;
+ /* text-align:right;
   margin-right:0px;
   width:40%;
   float: right;
-  background-color: cadetblue;
+  */
 }
 
 div {
