@@ -1,0 +1,29 @@
+/* this is for an exercise in class on styles */
+
+body {
+	background-color:beige;
+	padding:5%;	
+
+}
+
+h2 {
+text-align:center;
+background-color:aquamarine;
+
+}
+
+p {
+
+ color: purple;
+ background-color:burlywood;
+ font-family: "times new roman", serif, 'times';
+ padding:3%;
+ border: 2px #000000 dashed;
+}
+
+.nav {
+font-size: 1.5em;
+padding: 1%;
+color:deeppink;
+
+}
