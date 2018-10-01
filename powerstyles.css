@@ -2,7 +2,7 @@
 
 body {
 	background-color:beige;
-	padding:5%;	
+	padding:5%;
 
 }
 
@@ -19,6 +19,12 @@ p {
  font-family: "times new roman", serif, 'times';
  padding:3%;
  border: 2px #000000 dashed;
+}
+
+p.nav{
+	font-size: 2em;
+	padding: 5%;
+	color:white;
 }
 
 .nav {
