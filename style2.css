@@ -16,28 +16,32 @@ font-family: "times new roman", times, serif;
 */
 }
 
+div {
+margin-left: 05%;
+}
+
 .left {
   text-align:left;
-  margin-left:0px;
-  /*
+   margin-left:0px;
+
   width:40%;
-  float: left;  */
+  float: left;
   /* background-color: cadetblue; */
-  
+
 }
 
 .right {
-    text-align:left;
-    margin-left:0px;
- /* text-align:right;
-  margin-right:0px;
+  text-align:left;
+   margin-left:0px;
+
+/* text-align:right; */
+  /*margin-right:0px; */
   width:40%;
   float: right;
-  */
+
 }
 
-div {
-margin-left: 5%;
+
 font-family: geneva, sans-serif;
 font-size: 12pt
 }
