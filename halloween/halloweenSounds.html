@@ -16,11 +16,17 @@
   h3 {font-size: 2em; margin-bottom: 0;}
 
   body {
-    background-image: url(../images/pumpkin.jpg);
+    background-image: url(images/pumpkin.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+
   }
+
+  body:after {
+    opacity: 50%;
+  }
+
 </style>
 </head>
 
@@ -28,13 +34,13 @@
 <h1>Halloween Sounds</h1>
 <h3>Rainstorm:</h3>
 <audio autoplay controls loop>
-  <source src="../audio/rainStorm.mp3" type="audio/mpeg">
-  <source src="../audio/rainStorm.wav" type="audio/wav">
-  <source src="../audio/rainStorm.ogg" type="audio/ogg">
+  <source src="audio/rainStorm.mp3" type="audio/mpeg">
+  <source src="audio/rainStorm.wav" type="audio/wav">
+  <source src="audio/rainStorm.ogg" type="audio/ogg">
 </audio>
 <h3>Witch's Cackle:</h3>
-<audio src="../audio/witchesCackle.mp3" preload="auto" controls></audio>
+<audio src="audio/witchesCackle.mp3" preload="auto" controls></audio>
 <h3>Werewolf:</h3>
-<audio src="../audio/werewolf.mp3" preload="auto" controls></audio>
+<audio src="audio/werewolf.mp3" preload="auto" controls></audio>
 </body>
 </html>
