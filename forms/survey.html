@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Music Survey</title>
+<meta charset="utf-8">
+<style>
+body {
+	font-size: 1.3em;
+	background-color: beige;
+
+}
+content{
+	width:90%;
+	margin:auto;
+}
+h1 {
+	text-align: center;
+}
+form {
+		 margin-left:5%;
+}
+input {
+	margin-bottom:2%;
+}
+
+input#submit {
+display:block;
+background-color:#33ff99;
+font-weight:bold;
+padding: 20px;
+font-size: 1.5em;
+}
+
+select option {
+	font-size: 1.75em;
+	width: 150px;
+}
+
+</style>
+</head>
+<body>
+<conent>
+	<h1>Music Survey</h1>
+<form action="https://idesstage2.bc.edu/class/results.php" method = "post">
+	Name:
+	<input type="text" name = "Name"> <br>
+	Email:
+	<input type ="email" name = "Email"> <br>
+	<br>
+	Why do you listen to Music?<br>
+	<textarea name = "message" rows="3" cols="60">
+	</textarea>
+	<br>
+	<br>
+
+	<fieldset>
+	<legend>Favorite Music Genre: </legend>
+	<input type = "radio" name = "genre" value = "Pop"> Pop <br>
+	<input type = "radio" name = "genre" value = "Ballad"> Ballad <br>
+	<input type = "radio" name = "genre" value = "Dance"> Dance <br>
+	</fieldset>
+	<br>
+
+	<fieldset>
+	<legend>How long do you listen to music per day? </legend>
+	<input type = "checkbox" name = "time" value = "1-3hour"> 1-4 hours <br>
+	<input type = "checkbox" name = "time" value = "4-7hour"> 4-7 hours <br>
+	<input type = "checkbox" name = "time" value = "8-11hour"> 8-11 hours <br>
+	</fieldset>
+	<br>
+
+	Where do you mostly listen to music?<br>
+
+	<select name = "location" size = "3">
+		<option value = "home"> Home </option>
+		<option value = "library"> Library </option>
+		<option value = "Car"> Car </option>
+		<option value = "Street"> Street </option>
+		<option value = "Park"> Park </option>
+
+	</select>
+	<br>
+	<br>
+
+	<input id="submit" type = "submit" value = "Submit">
+
+</form>
+</content>
+
+</body>
+</html>
