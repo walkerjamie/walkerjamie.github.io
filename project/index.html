@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+    <title>All About Minerals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="description" content="your description">
+    <meta name="keyword" content="your keywords, more key words">
+    <meta name="author" content="Jamie Walker">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+
+<body>
+<header>
+      <h1>What is a Mineral?</h1>
+  <nav><a href="mineral_home.html">Minerals Home</a>
+    <div class="dropdown"><span class="dropdownbtn">Mineral Classes</span>
+        <div class="dropdown-content">
+            <a href="#">Silicates</a><br>
+            <a href="#">Carbonates</a><br>
+            <a href="#">Sulphides</a><br>
+            <a href="#">Sulfates</a><br>
+            <a href="#">Oxides</a><br>
+            <a href="#">Halides</a><br>
+            <a href="#">Elements</a>
+          </div>
+        </div>
+    <div class="dropdown2"><span class="dropdownbtn">Mineral Properties</span>
+        <div class="dropdown2-content">
+            <a href="#">Hardness</a><br>
+            <a href="#">Luster</a><br>
+            <a href="#">Color</a><br>
+            <a href="#">Streak</a><br>
+          </div>
+      </div>
+      <a href="mineral_list.html">Uses</a>
+      <a href="mineral_properties.html">New England Minerals</a>
+</nav>
+</header>
+<div id=content>
+  <h2>To meet the definition of "mineral" used by most geologists, a substance must meet five requirements:</h2>
+  <section id="main">
+        <dl>
+        <dt><a href="">naturally occurring</a></dt>
+        <dd>This means that people did not make it. Steel is not a mineral because it is an alloy produced by people.
+        </dd>
+
+        <dt>inorganic</dt>
+        <dd>The substance is not made by an organism. Wood and pearls are made by organisms and thus are not minerals.
+        </dd>
+
+        <dt>solid</dt>
+        <dd>This means that it is not a liquid or a gas at standard temperature and pressure.
+        </dd>
+        <dt>definite chemical composition</dt>
+        <dd>All occurrences of the mineral have a chemical composition that varies within a specific limited range. For example: the mineral halite (known as "rock salt" when it is mined) has a chemical composition of NaCl. It is made up of an equal number of atoms of sodium and chlorine.
+        </dd>
+        <dt>ordered internal structure</dt>
+        <dd>The atoms in a mineral are arranged in a systematic and repeating pattern. The structure of the mineral halite is shown in the illustration on this page. Halite is composed of an equal ratio of sodium and chlorine atoms arranged in a cubic pattern.
+        </dd>
+      </dl>
+  </section>
+  <section id="featured">
+    <img class="mySlides w3-animate-fading" src="images/apatite.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading" src="images/calcite.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading" src="images/galena.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading" src="images/gold.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading" src="images/quartz.jpg" style="width:100%">
+  </section>
+
+  <footer cite="http://geology.com">Adopted from Geology.com by James Walker &copy;2018</footer>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 9000);
+}
+</script>
+ </body>
+</html>

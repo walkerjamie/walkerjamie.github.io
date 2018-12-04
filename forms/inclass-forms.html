@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>In Class Forms</title>
+<meta charset="utf-8">
+<style>
+.column {
+	width:40%;
+	float:left;
+}
+
+</style>
+
+</head>
+<body>
+<div class="column">
+<form action="https://idesstage2.bc.edu/class/results.php" method = "post">
+	Name:
+	<input type="text" name = "Name"> <br>
+	Email:
+	<input type ="email" name = "Email" required> <br>
+	<br>
+	<input type="range" name="range" min="1" max="100" onchange="showValue(this.value)" value=this.valueAsNumber>
+	<div id="range"> 0 </div>
+	<br>&nbsp;<br>
+	<input list="browsers" name="browsers">
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+<br>&nbsp;<br>
+<input type = "image" src="submit.jpg" alt="submit">
+</form>
+
+</div>
+<div class="column">
+	<img src="https://alic-e.me/wp-content/uploads/2018/04/images-of-turkeys-5ac92a2311884.jpg" width="50%">
+	<caption>Some mysterious image here</caption>
+</div>
+
+<script>
+function showValue(newValue)
+{
+document.getElementById("range").innerHTML=newValue;
+}
+</script>
+</body>
+</html>
