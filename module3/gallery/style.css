@@ -39,6 +39,10 @@ a img {
 /* width:500px; */
 }
 
+a img: hover{
+	border: 5px solid yellow;
+}
+
 hr { float: right;}
 /* add more styles below... */
 
