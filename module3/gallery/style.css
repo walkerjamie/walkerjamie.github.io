@@ -25,6 +25,18 @@ body {
 	color: #2a6f29;
 }
 
-ul li {list-style: none; padding-bottom:2%}
+ul{
+	margin-bottom:10%;
+}
 
-a img {max-height: 75px;}
+li {list-style: none; padding:2%; border:1px solid brown; vertical-align:middle; float:left;}
+
+
+a img {
+	max-height: 75px;
+/* width:500px; */
+}
+
+hr { float: right;}
+/* add more styles below... */
+
