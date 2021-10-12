@@ -48,6 +48,6 @@ a img:hover{
 	border: 5px solid yellow;
 }
 
-hr { //float: right;}
+hr { float: clear;}
 /* add more styles below... */
 
